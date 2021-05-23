@@ -220,6 +220,4472 @@ Asena.addCommand({pattern: 'scam ?(.*)', fromMe: true, desc: Lang.SCAM_DESC}, (a
         await new Promise(r => setTimeout(r, 10000));
 
         await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+		await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
+
+        await new Promise(r => setTimeout(r, 10000));
+
+        await message.client.updatePresence(message.jid,Presence.composing)
 
     } else if (match[1] === 'online') {
 
