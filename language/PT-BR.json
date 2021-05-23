@@ -58,56 +58,56 @@
             "REASON": "Razão",
             "LAST_SEEN": "Visto pela última vez",
             "IM_NOT_AFK": "```Eu não estou mais ausente!```",
-            "AFK_TEXT": "```Olá Humano eu sou um assistente pessoal.```",
-            "AFK_TEXT_NOMD": "Meu Mestre não está aqui no momento.",
-            "HOUR": "hour",
-            "MINUTE": "minute",
-            "SECOND": "second",
-            "AGO": " ago```"
+            "AFK_TEXT": "```Olá Humano eu sou um assistente pessoal. \nMeu Mestre não está aqui no momento. \n Avisarei de sua mensagem, por favor aguarde o retorno.```",
+            "AFK_TEXT_NOMD": " ",
+            "HOUR": "Horas",
+            "MINUTE": "minutos",
+            "SECOND": "segundos",
+            "AGO": " atrás```"
         },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "*Give me a code!*"
+            "TERM_DESC": "Permite executar o comando no shell do servidor.",
+            "GIVE_ME_CODE": "*Me dê um código!*"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "As mensagens respondidas serão adicionadas a nekobin.com.",
+            "NEED_REPLY": "```Por favor responda a uma mensagem!```",
+            "MUST_TEXT": "```Por favor responda a qualquer mensagem```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```Shutting down ⛔```",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Either Key or Value is missing```",
-            "INVALID": "```Invalid key:value format```",
-            "GETVAR_DESC": "Get heroku config var",
-            "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```",
-            "SUCC": "*Successfully Setted Up ✅* \n*Please wait a little while.*",
-            "SUCC_AF": "*To restore, use* ```default```",
-            "DEGİS_NONE": "```Please Enter Any Module Name!``` \n\n*.degis afk*\n*.degis alive* _({pp}, {info}, {version}, {plugin})_\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis kickme*\n*.degis block*\n*.degis unblock*",
-            "WR": "*Please use the modules that exists!*",
-            "DEGİS_DESC": "Changes the text of modules like alive, afk etc.."       
+            "RESTART_DESC": "Reiniciar",
+            "RESTART_MSG": "```Reiniciando...```",
+            "SHUTDOWN_DESC": "Desligar",
+            "SHUTDOWN_MSG": "```Desligando ⛔```",
+            "DYNO_DESC": "Verifique o uso do dyno heroku",
+            "DYNO_TOTAL": "```Quota Total```",
+            "DYNO_USED": "```Quota usada```",
+            "PERCENTAGE": "```Percentagem```",
+            "DYNO_LEFT": "```Remanescente```",
+            "SETVAR_DESC": "Definir a variável de configuração do heroku",
+            "SET_SUCCESS": "Definido com sucesso ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```Falta chave ou valor```",
+            "INVALID": "```Chave inválida: formato de valor```",
+            "GETVAR_DESC": "Obter variável de configuração do heroku",
+            "DELVAR_DESC": "Excluir variável de configuração do heroku",
+            "DEL_SUCCESS": "```{} excluído com sucesso```",
+            "NOT_FOUND": "```nenhum resultado encontrado para esta chave```",
+            "SUCC": "*Configurado com sucesso ✅* \n*Por favor espere um pouco.*",
+            "SUCC_AF": "*Para restaurar, use* ```default```",
+            "DEGİS_NONE": "```Por favor, digite qualquer nome de módulo!``` \n\n*.degis afk*\n*.degis alive* _({pp}, {info}, {version}, {plugin})_\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis kickme*\n*.degis block*\n*.degis unblock*",
+            "WR": "*Use os módulos que existem!*",
+            "DEGİS_DESC": "Altera o texto de módulos como alive, afk etc.."       
         },
         "filters": {
-            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
-            "NO_FILTER": "*❌ There are no filters in this chat!*",
-            "FILTERS": "*🔎 There is your filters in this chat:*",
-            "NEED_REPLY": "*❌ Please type in reply!*\n*Example:*",
-            "FILTERED": "*✅ Successfully set* ```{}``` *to filter!*",
-            "STOP_DESC": "Stops the filter you added previously.",
-            "NEED_FILTER": "*❌ Please type a filter!*\n*Example:*",
-            "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
-            "DELETED": "*✅ The filter was successfully deleted!*"
+            "FILTER_DESC": "Ele adiciona um filtro. Se alguém escreve seu filtro, ele envia a resposta. Se você apenas escrever .filter, ele mostra sua lista de filtros.",
+            "NO_FILTER": "*❌ Não há filtros neste chat!*",
+            "FILTERS": "*🔎 Aí estão os seus filtros neste chat:*",
+            "NEED_REPLY": "*❌ Por favor digite uma resposta!*\n*Examplo:*",
+            "FILTERED": "*✅ Definido com sucesso* ```{}``` *para filtro!*",
+            "STOP_DESC": "Pára o filtro que você adicionou anteriormente.",
+            "NEED_FILTER": "*❌ Por favor digite um filtro!*\n*Examplo:*",
+            "ALREADY_NO_FILTER": "*❌ Já não existe filtro como este!*",
+            "DELETED": "*✅ O filtro foi excluído com sucesso!*"
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
@@ -200,9 +200,9 @@
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
         },
         "sticker": {
-            "STICKER_DESC": "It converts your replied photo or video to sticker.",
-            "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "STICKER_DESC": "Ele converte sua foto ou vídeo respondido em sticker.",
+            "NEED_REPLY": "*Responder a uma foto ou vídeo!*",
+            "DOWNLOADING": "```Download de mídia e conversão em sticker...```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -277,16 +277,16 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
-            "STİCKER_DESC": "Converts the sticker to a photo.",
-            "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
-            "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
-            "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_DESC": "Applies the selected TBlend effect to videos." 
+            "MP4TOAUDİO_DESC": "Converte vídeo em som.",
+            "MP4TOAUDİO_NEEDREPLY": "*Você deve responder a um vídeo!*",
+            "MP4TOAUDİO": "```Conversão de vídeo em áudio..```",
+            "STİCKER_DESC": "Converte o sticker em uma foto.",
+            "STİCKER_NEEDREPLY": "*Você deve responder a um sticker!*",
+            "STİCKER": "```Convertendo o sticker em uma foto..```",
+            "XMEDİA_DESC": "É um plugin com mais de 25 ferramentas de mídia.",
+            "T_FALSE": "```❌ Efeito de mistura incorreto inserido!```\n```🔎 Comandos Existentes:```\n\n*$dodge* - Aplica um filtro de cor rosa ao vídeo.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Aumenta o contraste do vídeo.\n*$and* - Aplica efeito de raio negro de acordo com a velocidade do vídeo.\n*$or* - Aplica um efeito de raio branco de acordo com a velocidade do vídeo.\n*$burn* - Aplica contraste verde ao vídeo.\n*$difference* - Mostra as diferenças aplicando relevo verde ao vídeo.\n*$grainextract* - Mostra as diferenças aplicando relevo cinza ao vídeo.\n*$divide* - Demonstra as diferenças aplicando um relevo rosa ao vídeo.\n*$xor* - Aplica relevo verde e efeito relâmpago ao vídeo.\n*$hardmix* - Mistura as cores do vídeo em tons de amarelo e vermelho.\n*$negation* - Transforma a dinâmica do vídeo em rosa.",
+            "T_NOT": "```💭 Você precisa inserir quaisquer efeitos de mistura!\n```🔎 Comandos Existentes:```\n\n*$dodge* - Aplica um filtro de cor rosa ao vídeo.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Aumenta o contraste do vídeo.\n*$and* - Aplica efeito de raio negro de acordo com a velocidade do vídeo.\n*$or* - Aplica um efeito de raio branco de acordo com a velocidade do vídeo.\n*$burn* - Aplica contraste verde ao vídeo.\n*$difference* - Mostra as diferenças aplicando relevo verde ao vídeo.\n*$grainextract* - Mostra as diferenças aplicando relevo cinza ao vídeo.\n*$divide* - DDemonstra as diferenças aplicando um relevo rosa ao vídeo.\n*$xor* - Aplica relevo verde e efeito relâmpago ao vídeo.\n*$hardmix* - Mistura as cores do vídeo em tons de amarelo e vermelho.\n*$negation* - Transforma a dinâmica do vídeo em rosa.",
+            "T_DESC": "Aplica o efeito TBlend selecionado a vídeos." 
         },
         "mute": {
             "BİRMUTE": "*The group was silenced for 1 minute!*",
@@ -397,9 +397,9 @@
             "CARBON_WARN": "Please only type in en and tr character!"
         },
         "scam": {
-            "SCAM_DESC": "Creates 5 minutes of fake actions.",
-            "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
+            "SCAM_DESC": "Cria 5 minutos de ações falsas.",
+            "SCAM_NOTFOUND": "*Você deve entrar em ação falsa!*\nTipos Existentes: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Ação incorreta inserida! \nUse os tipos existentes.```"
         },
         "deepai": {
             "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
