@@ -203,7 +203,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*WhatsAsena Working as Public! 🐺*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as public. To change it, use* _.setvar WORK_TYPE:private_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui. Este é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo público. Para alterá-lo, use* _.setvar WORK_TYPE:private_\n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -221,7 +221,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For Update The Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Type``` *.update now* ```Para atualizar o bot.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
@@ -248,7 +248,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*WhatsAsena Working as Private! 🐺*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui. Este é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo privado. Para alterá-lo, use* _.setvar WORK_TYPE:public_\n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
