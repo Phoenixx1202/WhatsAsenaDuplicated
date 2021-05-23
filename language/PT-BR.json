@@ -224,7 +224,7 @@
         "updater": {
             "UPDATER_DESC": "Verifica a atualização.",
             "UPDATE": "*Seu bot está totalmente atualizado!*",
-            "NEW_UPDATE": "*Nova atualização disponível para Bot!*\n\nMudanças:\n```",
+            "NEW_UPDATE": "*Nova atualização disponível!*\n\nMudanças:\n```",
             "UPDATE_NOW_DESC": "Fazer atualizações.",
             "UPDATING": "_Atualizando..._",
             "INVALID_HEROKU": "*❌ Suas informações do Heroku estão erradas!*",
