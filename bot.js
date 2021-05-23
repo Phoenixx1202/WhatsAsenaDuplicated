@@ -203,7 +203,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui. Este é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo público. Para alterá-lo, use* _.setvar WORK_TYPE:private_\n\n*Divirta-se*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui. \nEste é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo público. \nPara alterá-lo, use* _.setvar WORK_TYPE:private_\n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -248,7 +248,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui. Este é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo privado. Para alterá-lo, use* _.setvar WORK_TYPE:public_\n\n*Divirta-se*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui. \nEste é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo privado. \nPara alterá-lo, use* _.setvar WORK_TYPE:public_\n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -384,11 +384,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         
-        if (config.SUPPORT == '905524317852-1612300121') {     
+        if (config.SUPPORT == '') {     
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT2 == '905511384572-1617736751') {     
+        if (config.SUPPORT2 == '') {     
             var tsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
