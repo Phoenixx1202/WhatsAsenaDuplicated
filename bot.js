@@ -203,7 +203,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui. \nEste é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo público. \nPara alterá-lo, use* _.setvar WORK_TYPE:private_\n\n*Divirta-se*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui_. \n_Este é o seu número de LOG._ \n_Você pode testar comandos em qualquer chat :)_ \n\nSeu bot está em modo público. \nPara alterá-lo, use _.setvar *WORK_TYPE:private*_ \n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -248,7 +248,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui. \nEste é o seu número de LOG._\n_Você pode testar comandos em qualquer chat :)_\n\n*Seu bot está em modo privado. \nPara alterá-lo, use* _.setvar WORK_TYPE:public_\n\n*Divirta-se*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui_. \n_Este é o seu número de LOG._ \n_Você pode testar comandos em qualquer chat :)_\n\nSeu bot está em modo privado. \nPara alterá-lo, use _.setvar *WORK_TYPE:public*_ \n\n*Divirta-se*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
