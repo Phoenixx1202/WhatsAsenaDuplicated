@@ -89,7 +89,7 @@ Asena.addCommand({pattern: 'update now$', fromMe: true, desc: Lang.UPDATE_NOW_DE
                     exec('npm install').stderr.pipe(process.stderr);
                 } else if (err) {
                     await message.client.sendMessage(
-                        message.jid,'*❌ Atualização falhou!*\n*Erro:* ```' + err + '```', MessageType.text);
+                        message.jid,'*❌ Güncelleme başarısız oldu!*\n*Hata:* ```' + err + '```', MessageType.text);
                 }
             }));
             await guncelleme.delete();
