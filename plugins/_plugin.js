@@ -18,8 +18,8 @@ const Language = require('../language');
 const Lang = Language.getString('_plugin');
 const NLang = Language.getString('updater');
 
-let msg = Config.LANG == 'TR' || Config.LANG == 'AZ' ? '*Bu Plugin Resmi Olarak Onaylanmıştır!* ✅' : '*This Plugin is Officially Approved!* ✅'
-let inmsg = Config.LANG == 'TR' || Config.LANG == 'AZ' ? '*Bu Plugin Resmi Değildir!* ❌' : '*This Plugin isn\'t Officially Approved!* ❌'
+let msg = Config.LANG == 'PT-BR' || Config.LANG == '' ? '*Este plug-in foi aprovado oficialmente!* ✅'
+let inmsg = Config.LANG == 'PT-BR' || Config.LANG == '' ? '*Este plug-in não foi aprovado oficialmente!* ❌'
 
 const heroku = new Heroku({
     token: Config.HEROKU.API_KEY

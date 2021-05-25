@@ -61,7 +61,7 @@ if (Config.WORKTYPE == 'private') {
 
         TinyURL.shorten(`${match[1]}`, async(res, err) => {
           if (err)
-            await message.client.sendMessage(message.jid, '*#### Error! ####*\n\n' + '```' + err + '```', MessageType.text);
+            await message.client.sendMessage(message.jid, '*#### Erro! ####*\n\n' + '```' + err + '```', MessageType.text);
 
             await message.client.sendMessage(message.jid,`*Original Link:* ${match[1]}\n*Short Link:* ` + res, MessageType.text)
         });
@@ -102,7 +102,7 @@ else if (Config.WORKTYPE == 'public') {
 
         TinyURL.shorten(`${match[1]}`, async(res, err) => {
           if (err)
-            await message.client.sendMessage(message.jid, '*#### Error! ####*\n\n' + '```' + err + '```', MessageType.text);
+            await message.client.sendMessage(message.jid, '*#### Erro! ####*\n\n' + '```' + err + '```', MessageType.text);
 
             await message.client.sendMessage(message.jid,`*Original Link:* ${match[1]}\n*Short Link:* ` + res, MessageType.text)
         });
@@ -113,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
 
         TinyURL.shorten(`${match[1]}`, async(res, err) => {
           if (err)
-            await message.client.sendMessage(message.jid, '*#### Error! ####*\n\n' + '```' + err + '```', MessageType.text);
+            await message.client.sendMessage(message.jid, '*#### Erro! ####*\n\n' + '```' + err + '```', MessageType.text);
 
             await message.client.sendMessage(message.jid,`*Original Link:* ${match[1]}\n*Short Link:* ` + res, MessageType.text)
         });
