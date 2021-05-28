@@ -22,10 +22,10 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'status', fromMe: true, desc: Lang.STATUS_DESC}, (async (message, match) => {
 
         if (Config.STATUSMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tudo Funcionando!!```\n\n*Versão:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```Tudo Funcionando!!```\n\n*Versão:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Site:* https://google.com' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.STATUSMSG + '\n**', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.STATUSMSG + '\n*Powered by WhatsAsena*', MessageType.text);
         }
     }));
 
@@ -42,7 +42,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'status', fromMe: false, desc: Lang.STATUS_DESC}, (async (message, match) => {
 
         if (Config.STATUSMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tudo Funcionando!```\n\n*Versão:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```Tudo Funcionando!!```\n\n*Versão:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Site:* https://google.com' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.STATUSMSG + '\n**', MessageType.text);
