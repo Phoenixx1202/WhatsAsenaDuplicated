@@ -1,8 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 Developer & Co-Founder - Phaticusthiccy
 */
@@ -23,7 +21,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Estou Funcionando!```');
+            await message.client.sendMessage(message.jid,'```Estou Funcionando!```', MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAsena*'
@@ -54,7 +52,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Estou Funcionando!```');
+            await message.client.sendMessage(message.jid,'```Estou Funcionando!```', MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAsena*'
@@ -83,7 +81,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Estou Funcionando!```');
+            await message.client.sendMessage(message.jid,'```Estou Funcionando!```', MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAsena*'
