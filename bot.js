@@ -157,7 +157,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
         await new Promise(r => setTimeout(r, 1100));
 
         if (config.WORKTYPE == 'public') {
-            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 if (conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '') {
 
@@ -248,7 +248,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
             }
         }
         else if (config.WORKTYPE == 'private') {
-            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 if (conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === 't' || conn.user.jid === '') {
 
@@ -341,7 +341,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
         }
         else if (config.WORKTYPE == ' private' || config.WORKTYPE == 'Private' || config.WORKTYPE == ' Private' || config.WORKTYPE == 'privaye' || config.WORKTYPE == ' privaye' || config.WORKTYPE == ' prigate' || config.WORKTYPE == 'prigate' || config.WORKTYPE == 'priavte' || config.WORKTYPE == ' priavte' || config.WORKTYPE == 'PRİVATE' || config.WORKTYPE == ' PRİVATE' || config.WORKTYPE == 'PRIVATE' || config.WORKTYPE == ' PRIVATE') {
 
-            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 await conn.sendMessage(
                     conn.user.jid,
@@ -370,7 +370,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
         }
         else if (config.WORKTYPE == ' public' || config.WORKTYPE == 'Public' || config.WORKTYPE == ' Public' || config.WORKTYPE == 'publoc' || config.WORKTYPE == ' Publoc' || config.WORKTYPE == 'pubcli' || config.WORKTYPE == ' pubcli' || config.WORKTYPE == 'PUBLİC' || config.WORKTYPE == ' PUBLİC' || config.WORKTYPE == 'PUBLIC' || config.WORKTYPE == ' PUBLIC' || config.WORKTYPE == 'puvlic' || config.WORKTYPE == ' puvlic' || config.WORKTYPE == 'Puvlic' || config.WORKTYPE == ' Puvlic') {
 
-            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 await conn.sendMessage(
                     conn.user.jid,
@@ -399,7 +399,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
         }
         else {
 
-            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 return await conn.sendMessage(
                     conn.user.jid,
@@ -527,7 +527,7 @@ ${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
                         }
                         catch (error) {
                             
-                            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+                            if (config.LANG == 'TR' || config.LANG == 'AZ') {
                                 await conn.sendMessage(conn.user.jid, '*-- RELATÓRIO DE ERRO--*' + 
                                     '\n*Ocorreu um erro!*'+
                                     '\n_Este log de erros pode incluir seu número ou o número de um usuario, por favor, cuidado com isto!_' +
