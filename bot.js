@@ -11,7 +11,6 @@ const path = require("path");
 const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
-const axios = require('axios');
 const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const {Message, StringSession, Image, Video} = require('./whatsasena/');
@@ -20,8 +19,6 @@ const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
 const simpleGit = require('simple-git');
 const git = simpleGit();
-const crypto = require('crypto');
-const nw = '```Blacklist Defected!```'
 
 const heroku = new Heroku({
     token: config.HEROKU.API_KEY
@@ -66,7 +63,6 @@ if (!Date.now) {
 }
 // ==================== End Date Scanner ====================
 
-
 Array.prototype.remove = function() {
     var what, a = arguments, L = a.length, ax;
     while (L && this.length) {
@@ -79,23 +75,13 @@ Array.prototype.remove = function() {
 };
 
 async function whatsAsena () {
-    var insult = await axios.get('https://gist.githubusercontent.com/phaticusthiccy/42e0a7f9086fbcc194cd28ada1a5b894/raw/46bacfd4c1d09ec4743cff9d51b52a0185b4e53f/inside.json')
-    const { shs1, shl2, lss3, dsl4 } = insult.data.inside
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
           info: 'StringSession'
         }
     });
-    const buff = Buffer.from(`${shs1}`, 'base64');  
-    const one = buff.toString('utf-8'); 
-    const bufft = Buffer.from(`${shl2}`, 'base64');  
-    const two = bufft.toString('utf-8'); 
-    const buffi = Buffer.from(`${lss3}`, 'base64');  
-    const three = buffi.toString('utf-8'); 
-    const buffu = Buffer.from(`${dsl4}`, 'base64');  
-    const four = buffu.toString('utf-8'); 
-
+    
     const conn = new WAConnection();
     const Session = new StringSession();
 
@@ -108,9 +94,10 @@ async function whatsAsena () {
     } else {
         conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
     }
+
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('✅ Login Information Updated!')
+            chalk.blueBright.italic('✅ Informações de login atualizadas!')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -123,19 +110,19 @@ async function whatsAsena () {
 
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
-${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
+${chalk.white.bold('Versão:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
+${chalk.blue.italic('ℹ️ Conectando ao WhatsApp... Aguarde.')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('✅ Login successful!')
+            chalk.green.bold('✅ Login bem sucedido!')
         );
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing External Plugins...')
+            chalk.blueBright.italic('⬇️ Instalando Plugins Externos...')
         );
 
         // ==================== External Plugins ====================
@@ -153,7 +140,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('⬇️  Installing Plugins...')
+            chalk.blueBright.italic('⬇️  Instalando Plugins...')
         );
 
         // ==================== Internal Plugins ====================
@@ -165,119 +152,200 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End Internal Plugins ====================
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed!')
+            chalk.green.bold('✅ Plugins instalados!')
         );
         await new Promise(r => setTimeout(r, 1100));
-        if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
-            await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
-            await heroku.get(baseURI + '/formation').then(async (formation) => { 
-                forID = formation[0].id; 
-                await heroku.patch(baseURI + '/formation/' + forID, { 
-                    body: { 
-                    quantity: 0 
-                  
-                    } 
-                });
-            })
-        }
+
         if (config.WORKTYPE == 'public') {
-            if (config.LANG == 'TR' || config.LANG == 'AZ') { await conn.sendMessage(conn.user.jid, '*WhatsAsena Public Olarak Çalışıyor! 🐺*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için* _.setvar WORK_TYPE:private_ *komutunu kullanın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
-                await git.fetch();
-                var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
-                if (commits.total === 0) {
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        Lang.UPDATE, MessageType.text
-                    );    
-                } else {
-                    var degisiklikler = Lang.NEW_UPDATE;
-                    commits['all'].map(
-                        (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
-                        }
-                    );
+            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+
+                if (conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '') {
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Lista negra detectada!```', MessageType.text)
+
+                    await new Promise(r => setTimeout(r, 1700));
+
+                    console.log('🛡️ Lista negra detectada 🛡️')
+
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
+                        forID = formation[0].id;
+                        await heroku.patch(baseURI + '/formation/' + forID, {
+                            body: {
+                                quantity: 0
+                            }
+                        });
+                    })
+                }
+                
+                else {
+                    await conn.sendMessage(conn.user.jid, '*Bot em modo PÚBLICO!* \n\nNão teste os plug-ins aqui. \n\nEste é o seu número de LOG.\nVocê pode tentar comandos em qualquer chat :)_\n\nSeu bot funciona publicamente. \nPara alterá-lo, via config vars “WORK_TYPE” mude para “*private*”.\n\n', MessageType.text);
+
+                    await git.fetch();
+                    var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
+                    if (commits.total === 0) {
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            Lang.UPDATE, MessageType.text
+                        );    
+                    } else {
+                        var degisiklikler = Lang.NEW_UPDATE;
+                        commits['all'].map(
+                            (commit) => {
+                                degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            }
+                        );
         
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
-                    ); 
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            '```Atualizar``` *.update now* ```Versão.```\n\n' + degisiklikler + '```', MessageType.text
+                        ); 
+                    }
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Público! *\n\n_Não teste plug-ins aqui_. \n_Este é o seu número de LOG._ \n_Você pode testar comandos em qualquer chat :)_ \n\nSeu bot está em modo público. \nPara alterá-lo, use _.setvar *WORK_TYPE:private*_ \n\n*Divirta-se*', MessageType.text);
-                await git.fetch();
-                var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
-                if (commits.total === 0) {
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        Lang.UPDATE, MessageType.text
-                    );    
-                } else {
-                    var degisiklikler = Lang.NEW_UPDATE;
-                    commits['all'].map(
-                        (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
-                        }
-                    );
+            else {
+
+                if (conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '') {
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Lista negra detectada!```', MessageType.text)
+
+                    await new Promise(r => setTimeout(r, 1800));
+
+                    console.log('🛡️ Lista negra detectada 🛡️')
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
+                        forID = formation[0].id;
+                        await heroku.patch(baseURI + '/formation/' + forID, {
+                            body: {
+                                quantity: 0
+                            }
+                        });
+                    })
+                }
+                
+                else {
+                    await conn.sendMessage(conn.user.jid, '*Bot em modo PÚBLICO!* \n\nNão teste plug-ins aqui. \n\nEste é o seu número de LOG._\nVocê pode testar comandos em qualquer chat :)\n\nRodando no modo PÚBLICO. \nPara mudar, vá até “WORK_TYPE” e troca “*_public_*” por “*_private_*”.\n\n**', MessageType.text);
+
+                    await git.fetch();
+                    var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
+                    if (commits.total === 0) {
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            Lang.UPDATE, MessageType.text
+                        );    
+                    } else {
+                        var degisiklikler = Lang.NEW_UPDATE;
+                        commits['all'].map(
+                            (commit) => {
+                                degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            }
+                        );
         
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        '```Type``` *.update now* ```Para atualizar o bot.```\n\n' + degisiklikler + '```', MessageType.text
-                    ); 
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            '```Envie``` *.update now* ```Para atualizar o bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        ); 
+                    }
                 }
             }
         }
-        else if (config.WORKTYPE == 'private') { 
-            if (config.LANG == 'TR' || config.LANG == 'AZ') { await conn.sendMessage(conn.user.jid, '*WhatsAsena Private Olarak Çalışıyor! 🐺*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için* _.setvar WORK_TYPE:public_ *komutunu kullanın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
-                await git.fetch();
-                var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
-                if (commits.total === 0) {
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        Lang.UPDATE, MessageType.text
-                    );    
-                } else {
-                    var degisiklikler = Lang.NEW_UPDATE;
-                    commits['all'].map(
-                        (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
-                        }
-                    );
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
-                    ); 
+        else if (config.WORKTYPE == 'private') {
+            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+
+                if (conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === 't' || conn.user.jid === '') {
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Lista negra detectada!```', MessageType.text)
+
+                    await new Promise(r => setTimeout(r, 1800));
+
+                    console.log('🛡️ Lista negra detectada 🛡️')
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
+                        forID = formation[0].id;
+                        await heroku.patch(baseURI + '/formation/' + forID, {
+                            body: {
+                                quantity: 0
+                            }
+                        });
+                    })
+                }
+                
+                else {
+
+                    await conn.sendMessage(conn.user.jid, '*Bot em modo PRIVADO!* \n\nNão teste os plug-ins aqui. \n\nEste é o seu número de LOG.\nVocê pode tentar comandos em qualquer chat :)_\n\nSeu bot funciona exclusivamente para você. \n\nPara alterá-lo, via config vars *“WORK_TYPE”* sua chave “public” faça isso.\n\n**', MessageType.text);
+
+                    await git.fetch();
+                    var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
+                    if (commits.total === 0) {
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            Lang.UPDATE, MessageType.text
+                        );    
+                    } else {
+                        var degisiklikler = Lang.NEW_UPDATE;
+                        commits['all'].map(
+                            (commit) => {
+                                degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            }
+                        );
+        
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            '```Atualizar``` *.update now* ```Versão.```\n\n' + degisiklikler + '```', MessageType.text
+                        ); 
+                    }
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*Modo Privado!*\n\n_Não teste plug-ins aqui_. \n_Este é o seu número de LOG._ \n_Você pode testar comandos em qualquer chat :)_\n\nSeu bot está em modo privado. \nPara alterá-lo, use _.setvar *WORK_TYPE:public*_ \n\n*Divirta-se*', MessageType.text);
-                await git.fetch();
-                var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
-                if (commits.total === 0) {
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        Lang.UPDATE, MessageType.text
-                    );    
-                } else {
-                    var degisiklikler = Lang.NEW_UPDATE;
-                    commits['all'].map(
-                        (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
-                        }
-                    );
+            else {
+
+                if (conn.user.jid === 't' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '' || conn.user.jid === '') {
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Lista negra detectada!```', MessageType.text)
+   
+                    await new Promise(r => setTimeout(r, 1800));
+
+                    console.log('🛡️ Lista negra detectada 🛡️')
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
+                        forID = formation[0].id;
+                        await heroku.patch(baseURI + '/formation/' + forID, {
+                            body: {
+                                quantity: 0
+                            }
+                        });
+                    })
+                }
+                
+                else {
+
+                    await conn.sendMessage(conn.user.jid, '*Bot em modo PRIVADO!* \n\nNão teste os plug-ins aqui. \n\nEste é o seu número de LOG. \nVocê pode tentar comandos em qualquer chat \n\nSeu bot funciona exclusivamente para você. \n\nPara alterá-lo, via config vars *“WORK_TYPE”* mude para “public” \n\n', MessageType.text);
+
+                    await git.fetch();
+                    var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
+                    if (commits.total === 0) {
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            Lang.UPDATE, MessageType.text
+                        );    
+                    } else {
+                        var degisiklikler = Lang.NEW_UPDATE;
+                        commits['all'].map(
+                            (commit) => {
+                                degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            }
+                        );
         
-                    await conn.sendMessage(
-                        conn.user.jid,
-                        '```Type``` *.update now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
-                    ); 
+                        await conn.sendMessage(
+                            conn.user.jid,
+                            '```Envie``` *.update now* ```Para ATUALIZAR.```\n\n' + degisiklikler + '```', MessageType.text
+                        ); 
+                    }
                 }
             }
         }
         else if (config.WORKTYPE == ' private' || config.WORKTYPE == 'Private' || config.WORKTYPE == ' Private' || config.WORKTYPE == 'privaye' || config.WORKTYPE == ' privaye' || config.WORKTYPE == ' prigate' || config.WORKTYPE == 'prigate' || config.WORKTYPE == 'priavte' || config.WORKTYPE == ' priavte' || config.WORKTYPE == 'PRİVATE' || config.WORKTYPE == ' PRİVATE' || config.WORKTYPE == 'PRIVATE' || config.WORKTYPE == ' PRIVATE') {
 
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
 
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_Görünüşe Göre Private Moduna Geçmek İstiyorsun! Maalesef_ *WORK_TYPE* _Anahtarın Yanlış!_ \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
+                    '_Parece que você deseja alternar para o modo privado! Desculpe_ *WORK_TYPE* _Sua chave está errada!_ \n_Não se preocupe! Estou tentando encontrar o certo para você.._', MessageType.text
                 );
 
                 await heroku.patch(baseURI + '/config-vars', {
@@ -290,7 +358,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_It Looks Like You Want to Switch to Private Mode! Sorry, Your_ *WORK_TYPE* _Key Is Incorrect!_ \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
+                    '_Parece que você deseja alternar para o modo privado! Desculpe_ *WORK_TYPE* _Sua chave está errada!_ \n_Não se preocupe! Estou tentando encontrar o certo para você.._', MessageType.text
                 );
 
                 await heroku.patch(baseURI + '/config-vars', {
@@ -302,11 +370,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         else if (config.WORKTYPE == ' public' || config.WORKTYPE == 'Public' || config.WORKTYPE == ' Public' || config.WORKTYPE == 'publoc' || config.WORKTYPE == ' Publoc' || config.WORKTYPE == 'pubcli' || config.WORKTYPE == ' pubcli' || config.WORKTYPE == 'PUBLİC' || config.WORKTYPE == ' PUBLİC' || config.WORKTYPE == 'PUBLIC' || config.WORKTYPE == ' PUBLIC' || config.WORKTYPE == 'puvlic' || config.WORKTYPE == ' puvlic' || config.WORKTYPE == 'Puvlic' || config.WORKTYPE == ' Puvlic') {
 
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
 
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_Görünüşe Göre Public Moduna Geçmek İstiyorsun! Maalesef_ *WORK_TYPE* _Anahtarın Yanlış!_ \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
+                    '_Parece que você deseja alternar para o modo público! Desculpe seu_ *WORK_TYPE* _A chave está incorreta!_ \n_Não se preocupe! Estou tentando encontrar o caminho certo para você.._', MessageType.text
                 );
 
                 await heroku.patch(baseURI + '/config-vars', {
@@ -319,7 +387,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_It Looks Like You Want to Switch to Public Mode! Sorry, Your_ *WORK_TYPE* _Key Is Incorrect!_ \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
+                    '_Parece que você deseja alternar para o modo público! Desculpe seu_ *WORK_TYPE* _A chave está incorreta!_ \n_Não se preocupe! Estou tentando encontrar o caminho certo para você.._', MessageType.text
                 );
 
                 await heroku.patch(baseURI + '/config-vars', {
@@ -331,29 +399,25 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         else {
 
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
 
                 return await conn.sendMessage(
                     conn.user.jid,
-                    '_Girdiğin_ *WORK_TYPE* _Anahtarı Bulunamadı!_ \n_Lütfen_ ```.setvar WORK_TYPE:private``` _Yada_ ```.setvar WORK_TYPE:public``` _Komutunu Kullanın!_', MessageType.text
+                    '_A_ *WORK_TYPE* _A chave que você digitou não foi encontrada_ \n_Por favor digite_ ```.setvar WORK_TYPE:private``` _Ou_ ```.setvar WORK_TYPE:public``` _Use o comando!_', MessageType.text
                 );
             }
             else {
 
                 return await conn.sendMessage(
                     conn.user.jid,
-                    '_The_ *WORK_TYPE* _Key You Entered Was Not Found!_ \n_Please Type_ ```.setvar WORK_TYPE:private``` _Or_ ```.setvar WORK_TYPE:public```', MessageType.text
+                    '_A_ *WORK_TYPE* _A chave que você digitou não foi encontrada!_ \n_Por favor digite_ ```.setvar WORK_TYPE:private``` _Ou_ ```.setvar WORK_TYPE:public```', MessageType.text
                 );
             }
         }
-        
-    })
+    });
+
     
-    conn.on('chat-update', async m => {
-
-        if(!m.hasNewMessage) return
-        const msg = m.messages.all()[0]
-
+    conn.on('message-new', async msg => {
         if (msg.key && msg.key.remoteJid == 'status@broadcast') return;
 
         if (config.NO_ONLINE) {
@@ -369,7 +433,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-            // Hoşgeldin Mesajı
+            // Mensagem de boas-vindas
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
                 await conn.sendMessage(msg.key.remoteJid, gb.message, MessageType.text);
@@ -384,13 +448,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         
-        if (config.SUPPORT == '') {     
+        if (config.SUPPORT == '0') {     
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-        }
-        if (config.SUPPORT2 == '') {     
-            var tsup = config.SUPPORT2.split(',');                            
-            if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         // ==================== End Blocked Chats ====================
 
@@ -466,39 +526,37 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             await command.function(whats, match);
                         }
                         catch (error) {
-                            if (error.message.includes('429')) return;
-
-                            else if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- HATA RAPORU [WHATSASENA] --*' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
-                                    '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
-                                    '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
-                                    '\n_Hatayı https://chat.whatsapp.com/Jnt9jrJdH2E456Zbchwx3t bu gruba iletebilirsiniz._\n\n' +
-                                    '*Gerçekleşen Hata:* ```' + error + '```\n\n'
+                            
+                            if (config.LANG == 'PT-BR' || config.LANG == 'AZ') {
+                                await conn.sendMessage(conn.user.jid, '*-- RELATÓRIO DE ERRO--*' + 
+                                    '\n*Ocorreu um erro!*'+
+                                    '\n_Este log de erros pode incluir seu número ou o número de um usuario, por favor, cuidado com isto!_' +
+                                    '\n_Você pode escrever para o nosso grupo Telegram para obter ajuda._' +
+                                    '\n_Esta mensagem deve ter ido para o seu número (mensagens gravadas)._' +
+                                    '\n_O erro *Definir Grupo* Você pode encaminhar para este grupo._\n\n' +
+                                    '*Real erro:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Only Absolutely URLs Supported_' +
-                                        '\n*Nedeni:* _Medya araçlarının (xmedia, sticker..) LOG numarasında kullanılması._' +
-                                        '\n*Çözümü:* _LOG numarası hariç herhangi bir sohbette komut kullanılabilir._'
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS ⚕️*' + 
+                                        '\n========== ```Erro de Leitura!``` ==========' +
+                                        '\n\n*Eu sou mesmo:* _Apenas URLs suportados_' +
+                                        '\n*Razão:* _Ferramentas de mídia (xmedia, sticker..) LOG usar em número._' +
+                                        '\n*Solução: * O comando pode ser usado em qualquer chat, exceto o número _LOG.._'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Split of Undefined_' +
                                         '\n*Nedeni:* _Grup adminlerinin kullanabildiği komutların ara sıra split fonksiyonunu görememesi._ ' +
                                         '\n*Çözümü:* _Restart atmanız yeterli olacaktır._'
                                         , MessageType.text
                                     );
-                                
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Ookla Server Connection_' +
                                         '\n*Nedeni:* _Speedtest verilerinin sunucuya iletilememesi._' +
@@ -507,7 +565,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Requested Audio Params_' +
                                         '\n*Nedeni:* _TTS komutunun latin alfabesi dışında kullanılması._' +
@@ -516,7 +574,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _No Such File or Directory_' +
                                         '\n*Nedeni:* _Pluginin yanlış kodlanması._' +
@@ -525,7 +583,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Error 404 HTTPS_' +
                                         '\n*Nedeni:* _Heroku plugini altındaki komutların kullanılması sonucu sunucu ile iletişime geçilememesi._' +
@@ -534,7 +592,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
@@ -543,7 +601,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
@@ -552,7 +610,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Bailyes Action Error_ ' +
                                         '\n*Nedeni:* _Tam nedeni bilinmiyor. Birden fazla seçenek bu hatayı tetiklemiş olabilir._' +
@@ -561,7 +619,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Cannot Decode Text or Media_' +
                                         '\n*Nedeni:* _Pluginin yanlış kullanımı._' +
@@ -570,61 +628,41 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro de leitura!``` ==========' +
                                         '\n\n*Ana Hata:* _Word Character Usage_' +
                                         '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması._' +
                                         '\n*Çözümü:* _Komutu latif alfabesi çerçevesinde kullanırsanız sorun çözülecektir._'
                                         , MessageType.text
                                     );
                                 }
-                                else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Deleting Plugin_' +
-                                        '\n*Nedeni:* _Silinmek istenen plugin isminin yanlış girilmesi._' +
-                                        '\n*Çözümü:* _Lütfen silmek istediğiniz pluginin başına_ *__* _koymadan deneyin. Hala hata alıyorsanız ismin sonundaki_ ```?(.*) / $``` _gibi ifadeleri eksiksiz girin._'
-                                        , MessageType.text
-                                    );
-                                }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Maalesef Bu Hatayı Okuyamadım! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Não consegui ler este erro! 🙇🏻*' +
                                         '\n_Daha fazla yardım için grubumuza yazabilirsiniz._'
                                         , MessageType.text
                                     );
                                 }
                             }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [WHATSASENA] --*' + 
-                                    '\n*WhatsAsena an error has occurred!*'+
-                                    '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
-                                    '\n_You can write to our Telegram group for help._' +
-                                    '\n_Aslo you can join our support group:_ https://chat.whatsapp.com/Jnt9jrJdH2E456Zbchwx3t' +
-                                    '\n_This message should have gone to your number (saved messages)._\n\n' +
-                                    '*Error:* ```' + error + '```\n\n'
+                                await conn.sendMessage(conn.user.jid, '*-RELATÓRIO DE ERROS [WHATSASENA]-*' + 
+                                    '\n*Ocorreu um erro no WhatsAsena!*'+
+                                    '\n_Este log de erros pode incluir seu número ou o número de um oponente. \nPor favor, cuidado com isto!' +
+                                    '\n_Esta mensagem deveria ter ido para o seu número (mensagens salvas)._\n\n' +
+                                    '*Erro:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
                                         '\n*Solution:* _You can use commands in any chat, except the LOG number._'
                                         , MessageType.text
                                     );
                                 }
-                                else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Deleting Plugin_' +
-                                        '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
-                                        '\n*Solution:* _Please try without adding_ *__* _to the plugin you want to delete. If you still get an error, try to add like_ ```?(.*) / $``` _to the end of the name._ '
-                                        , MessageType.text
-                                    );
-                                }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
                                         '\n*Solution:* _Restarting will be enough._'
@@ -632,8 +670,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
                                         '\n*Solution:* _If you use it one more time the problem will be solved._'
@@ -641,8 +679,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
                                         '\n*Solution:* _The problem will be solved if you use the command in Latin letters frame._'
@@ -650,8 +688,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
                                         '\n*Solution:* _Please check the your plugin codes._'
@@ -659,17 +697,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Error 404 HTTPS_' +
-                                        '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
-                                        '\n*Solution:* _Wait a while and try again. If you still get the error, perform the transaction on the website.._'
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
+                                        '\n\n*Erro Principal:* _Erro 404 HTTPS_' +
+                                        '\n*Razão:* _Falha na comunicação com o servidor devido ao uso dos comandos do plugin Heroku._' +
+                                        '\n*Solução:* _Espere um pouco e tente novamente, se você ainda receber o erro, execute o comando no site.._'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
                                         '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
@@ -677,8 +715,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
                                         '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
@@ -686,8 +724,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
                                         '\n*Solution:* _If you use it again, it may improve. If the error continues, you can try to restart._'
@@ -695,8 +733,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS [WHATSASENA] ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
                                         '\n*Solution:* _Please use the commands as written in the plugin description._'
@@ -704,16 +742,16 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Word Character Usage_' +
-                                        '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
-                                        '\n*Solution:* _The problem will be solved if you use the command in Latin alphabet.._'
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ RESOLUÇÃO DE ERROS ⚕️*' + 
+                                        '\n========== ```Erro resolvido!``` ==========' +
+                                        '\n\n*Erro Principal:* _Word Character Usage_' +
+                                        '\n*Razão:* _Usando comandos como TTP, ATTP fora do alfabeto latino._' +
+                                        '\n*Solução:* _O problema será resolvido se você usar o comando em alfabeto latino.._'
                                         , MessageType.text
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Não consegui ler este erro! 🙇🏻*' +
                                         '\n_You can write to our support group for more help._'
                                         , MessageType.text
                                     );
@@ -731,7 +769,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('A string da sua versão antiga está sendo renovada...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
