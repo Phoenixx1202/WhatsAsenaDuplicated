@@ -11,11 +11,11 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
-const Lang = Language.getString('_asena');
+const Lang = Language.getString('_menu');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'asena ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -76,14 +76,14 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *Menu Privado* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'asena ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -112,7 +112,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *Menu Público* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -144,11 +144,11 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *Menu Público* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
-    Asena.addCommand({pattern: 'asena ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -177,7 +177,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *Menu Público* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -209,7 +209,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *Menu Público* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
