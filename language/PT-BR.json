@@ -205,7 +205,7 @@
             "DOWNLOADING": "```Download de mídia e conversão em sticker...```"
         },
         "system_stats": {
-            "ALIVE_DESC": "O bot funciona?",
+            "ALIVE_DESC": "Verifica se o bot está funcionando?",
             "SYSD_DESC": "Mostra as propriedades do sistema."
         },
         "tagall": {
@@ -253,8 +253,8 @@
             "SUC": "*Mensagem salva com sucesso em LOG!*"
         },
         "weather": {
-            "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Por favor escreva uma localização!*\n*Exemplo:* ```.weather nomedacidade```",
+            "WEATHER_DESC": "Mostra o clima.",
+            "NEED_LOCATION": "*Por favor escreva uma localização!*\n*Exemplo:* ```.weather nomedacidade```",
             "LOCATION": "Localização",
             "TEMP": "Temperatura",
             "DESC": "Descrição",
