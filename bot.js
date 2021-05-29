@@ -603,7 +603,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 );
                                 if (error.message.includes('URL')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Apenas URLs são suportadas_' +
                                         '\n*Motivo:* _O uso de ferramentas de mídia (xmedia, sticker..) no número do LOG._' +
                                         '\n*Solução:* _Você pode usar comandos em qualquer chat, exceto o número LOG._'
@@ -612,7 +612,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('conversation')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Excluindo Plugin_' +
                                         '\n*Motivo:* _Digitando incorretamente o nome do plugin que deseja excluir._' +
                                         '\n*Solução:* _Por favor, tente sem adicionar_ *__* _para o plugin que você deseja excluir. Se você ainda receber um erro, tente adicionar_ ```?(.*) / $``` _até o final do nome._ '
@@ -621,7 +621,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('split')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Divisão de Indefinido_' +
                                         '\n*Motivo:* _Comandos que podem ser usados por administradores de grupo ocasionalmente não veem a função de divisão._ ' +
                                         '\n*Solução:* _Reiniciar será o suficiente._'
@@ -630,7 +630,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('Ookla')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Conexão do servidor Ookla_' +
                                         '\n*Motivo:* _Os dados do Speedtest não podem ser transmitidos ao servidor._' +
                                         '\n*Solução:* _Se você usar mais uma vez o problema será resolvido._'
@@ -639,7 +639,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('params')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Parâmetros de áudio solicitados_' +
                                         '\n*Motivo:* _Usando o comando TTS fora do alfabeto latino._' +
                                         '\n*Solução:* _O problema será resolvido se usar o comando na forma de letras latinas._'
@@ -657,7 +657,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('404')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Erro 404 HTTPS_' +
                                         '\n*Motivo:* _Falha na comunicação com o servidor devido ao uso dos comandos do plugin Heroku._' +
                                         '\n*Solução:* _Espere um pouco e tente novamente. Se você ainda receber o erro, execute a transação no site.._'
@@ -666,7 +666,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('reply.delete')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Responder excluir função_' +
                                         '\n*Motivo:* _Usando comandos IMG ou Wiki._' +
                                         '\n*Solução:* _Não há Solução para este erro. Não é um erro fatal._'
@@ -675,7 +675,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('load.delete')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Responder excluir função_' +
                                         '\n*Motivo:* _Usando comandos IMG ou Wiki._' +
                                         '\n*Solução:* _Não há Solução para este erro. Não é um erro fatal._'
@@ -684,7 +684,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('400')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Erro de ação no Baileys_ ' +
                                         '\n*Motivo:* _O Motivo exato é desconhecido. Mais de uma opção pode ter causado este erro._' +
                                         '\n*Solução:* _Se você usá-lo novamente, pode melhorar. Se o erro persistir, você pode tentar reiniciar._'
@@ -693,7 +693,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('decode')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Não é possível decodificar texto ou mídia_' +
                                         '\n*Motivo:* _Uso incorreto do plug._' +
                                         '\n*Solução:* _Use os comandos conforme escritos na descrição do plugin._'
@@ -702,7 +702,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else if (error.message.includes('unescaped')) {
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ RELATÓRIO DE ERRO ⚕️*' + 
-                                        '\n========== ```Erro Resolvido!``` ==========' +
+                                        '\n==== ```Erro Resolvido!``` ====' +
                                         '\n\n*Erro Principal:* _Uso de caracteres de palavras_' +
                                         '\n*Motivo:* _Usando comandos como TTP, ATTP fora do alfabeto latino._' +
                                         '\n*Solução:* _O problema será resolvido se você usar o comando em alfabeto latino.._'
