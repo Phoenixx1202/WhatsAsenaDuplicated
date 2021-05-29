@@ -26,7 +26,7 @@ const privEN = "Making your bot private makes commands private only for you. Any
 const blEN = "Closes BlockChat bot to group, person or multiple chats you specify.\n To use it, first go to chat and type *.jid* Then copy to incoming code. (Except @g.us or @whatsapp.net!)\nThen use this command *.setvar BLOCK_CHAT:id && id1,id2..*"
 const sudoPT-BR = "SUDO, compartilha seu bot com o usuário que você escolher com todos os seus poderes. Se você colocar 0 no final do número, o usuário também pode usá-lo no grupo.\nPara usar, digite *.setvar SUDO:90xxxx && 90xx,90xxx [com código de país/cidade, (❌ +90xx • ✅ 90xx)]*"
 
-if (Config.LANG == 'PT-BR' || Config.LANG == 'AZ') {
+if (Config.LANG == 'TR || Config.LANG == 'AZ') {
     
     Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, desc: h_Des}, (async (message, match) => {
 
