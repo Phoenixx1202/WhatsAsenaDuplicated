@@ -10,7 +10,7 @@ const Config = require('../config');
 // ==================== MAIN DESCRIPTION TEXT ====================
 const h_Des = "Yardım menüsünden botu kullanım hakkında bilgi verir."
 const h_DedEN = "Dá informações sobre como usar o bot no menu Ajuda."
-const matchnullEN = "==== *🆘 Ajuda Geral 🆘* ====\n\n🔹 *.status:* Verifica se o bot está rodando.\n\n🔹 *.menu:* Mostra a lista completa de comandos.\n\n🔹 *.setvar:* Ele define a configuração sem entrar no Heroku.\n\n Para mais ajuda, use o comando .ajuda \n\n========== *Até mais* =========="
+const matchnullEN = "==== *🆘 Ajuda Geral 🆘* ====\n\n🔹 *.status:* Verifica se o bot está rodando.\n\n🔹 *.menu:* Mostra a lista completa de comandos.\n\n🔹 *.setvar:* Ele define a configuração sem entrar no Heroku.\n\n Para mais ajuda, use o comando .ajuda \n\n==== *Até mais* ===="
 const matchnull = "========== *🆘 Genel Yardım 🆘* ==========\n\n🔹 *.status:* Botun çalışıp çalışmadığını kontrol eder.\n🔹 *.menu:* Tüm komut listesini gösterir.\n🔹 *.setvar:* Herokuya girmeden config ayarlar.\n\n🔸 Daha fazla yardım için ```.ajuda <yardım almak istediğiniz konu>``` komutunu kullanın.\nÖrnek: ```.ajuda botumu nasıl public yaparım?```\n\n========== *Genel Yardım Bitti* =========="
 const notfound = "```Almak istediğiniz yardım bulunamadı!```\n```Lütfen daha açıklayıcı bir şekilde sorunu belirtin.```"
 const notfoundEN = "```A ajuda que você queria obter não foi encontrada!```\n```Descreva o problema de uma forma mais descritiva.```"

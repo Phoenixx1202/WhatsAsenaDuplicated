@@ -314,7 +314,7 @@ if (config.WORKTYPE == 'private') {
                 //const resp = await fetch("https://coronavirus-19-api.herokuapp.com/all").then(r => r.json());
                 const respo = await got("https://coronavirus-19-api.herokuapp.com/all").then(async ok => {
                     const resp = JSON.parse(ok.body);
-                    await message.reply(`🌍 *World-Wide Results:*\n🌐 *Total Cases:* ${resp.cases}\n☠️ *Total Deaths:* ${resp.deaths}\n⚕️ *Total Recovered:* ${resp.recovered}`);
+                    await message.reply(`🌍 *Resultados Mundiais:*\n🌐 *Total de Casos:* ${resp.cases}\n☠️ *Total de Mortes:* ${resp.deaths}\n⚕️ *Total de Recuperados:* ${resp.recovered}`);
  
                 });
 
@@ -323,14 +323,14 @@ if (config.WORKTYPE == 'private') {
             }
 
         }
-        else if (match[1] === "tr" || match[1] === "Tr" || match[1] === "TR" || match[1].includes('turkiye') || match[1].includes('türkiye') || match[1].includes('türk') ) {
+        else if (match[1] === "br" || match[1] === "Br" || match[1] === "BR" || match[1].includes('brazil') || match[1].includes('brazil') || match[1].includes('türk') ) {
             try{
-                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Turkey").then(async ok  => {
+                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Brazil").then(async ok  => {
                     resp = JSON.parse(ok.body);
-                    await message.reply(`🇹🇷 *Türkiye İçin Sonuçlar:*\n😷 *Toplam Vaka:* ${resp.cases}\n🏥 *Günlük Hasta:* ${resp.todayCases}\n⚰️ *Toplam Ölü:* ${resp.deaths}\n☠️ *Günlük Ölü:* ${resp.todayDeaths}\n💊 *Toplam İyileşen:* ${resp.recovered}\n😷 *Aktif Vaka:* ${resp.active}\n🆘 *Ağır Hasta:* ${resp.critical}\n🧪 *Toplam Test:* ${resp.totalTests}`);
+                    await message.reply(`🇧🇷 *Dados para o Brasil:*\n😷 *Total de Casos:* ${resp.cases}\n🏥 *Casos Diários:* ${resp.todayCases}\n⚰️ *Total de Mortes:* ${resp.deaths}\n☠️ *Mortes Diárias:* ${resp.todayDeaths}\n💊 *Total de Recuperados:* ${resp.recovered}\n😷 *Casos ativos:* ${resp.active}\n🆘 *Casos Críticos:* ${resp.critical}\n🧪 *Total Testados:* ${resp.totalTests}`);
                 });
             } catch (err) {
-                await message.reply(`Bir Hata Oluştu, İşte Hata : \n${err.message}`, MessageType.text)
+                await message.reply(`Ocorreu um erro, aqui está o erro : \n${err.message}`, MessageType.text)
             }
 
         }
