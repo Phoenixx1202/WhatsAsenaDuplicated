@@ -26,7 +26,6 @@ $ git clone https://github.com/Phoenixx1202/WhatsAsenaDuplicated.git
 $ cd WhatsAsenaDuplicated
 $ npm i
 $ nano Config.env
-// Config.env oluşturun ve düzenleyin.
 // Config.env create and edit.
 $ node bot.js
 ```
